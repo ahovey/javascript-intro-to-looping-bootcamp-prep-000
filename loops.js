@@ -21,7 +21,7 @@ function doWhileLoop(array){
   function maybeTrue(){
     return Math.random() >= 0.5 }
   do{
-    array.slice(1)}
+    array.shift()}
         while (array.length > 0 && maybeTrue());
     return array
 }
